@@ -55,7 +55,7 @@ The resulting signals after filtering and energy estimation are:
 - Alpha wave
 - Beta wave
   
-These four types of signal wave energy are input data in model training and the sleep stages are output in model training.
+These four types of signal wave energy will be input data in model training and the sleep stages will be output in model training.
 
 ## Author
 Haoliang Cheng (The Python code is formed based on tinysleepnet[https://github.com/akaraspt/tinysleepnet])
