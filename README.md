@@ -18,13 +18,16 @@ To download the sample data, run the `download_database.py` script which will do
 ### Script for Data Download
 - [download_database.py](https://github.com/HaoliangCheng/sleep-stage-classification/blob/main/download_database.py)
 
-## Read EDF File
-Import the downloaded EDF file into MATLAB/Python for data processing.
-
-## Prepare Data
+## Read EDF File + Prepare Data
 The data preparation involves cleaning the downloaded data:
 - Remove most parts of wake stages, all movements, and unknown stages.
 - Keep only stages 0, 1, 2, 3, 4.
+
+### Python
+For Python code, you can directly run the code for data processing. 
+
+### MATLAB
+For MATLAB code, you need to put your downloaded data into sleep_stage_training_data and sleep_stage_testing_data dir, then you can run the code for data processing.
 
 ### Scripts for Data Preparation
 - [MATLAB Script: prepare_sleepedf.m](https://www.dropbox.com/scl/fi/5ogwjlnjs3ohareqfqimq/prepare_sleepedf.m?rlkey=6ombtyv3wj3a0qbft9baj1foy&dl=0)
@@ -54,4 +57,4 @@ The resulting signals after filtering and energy estimation are:
 These four types of signal wave energy are input data in model training and the sleep stages are output in model training.
 
 ## Author
-Haoliang Cheng
+Haoliang Cheng (The Python code is formed based on tinysleepnet[https://github.com/akaraspt/tinysleepnet])
