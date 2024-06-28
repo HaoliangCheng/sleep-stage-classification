@@ -5,7 +5,7 @@ This project is used in Dr. Mao's sleep stage classification lab which involves 
 
 ## Outline
 1. [Download Sample Data](#download-sample-data)
-2. [Read EDF File + Prepare Data](#read-edf-file-+-prepare-data) (#prepare-data)
+2. [Read EDF File + Prepare Data](#read-edf-file-+-prepare-data)
 3. [Dimensional Reduction](#dimensional-reduction)
 
 ## Download Sample Data
