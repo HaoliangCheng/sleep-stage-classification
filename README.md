@@ -53,6 +53,7 @@ The resulting signals after filtering and energy estimation are:
 - Theta wave
 - Alpha wave
 - Beta wave
+  
 These four types of signal wave energy are input data in model training and the sleep stages are output in model training.
 
 ## Author
