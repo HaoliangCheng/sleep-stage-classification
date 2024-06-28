@@ -16,7 +16,7 @@ To download the sample data, run the `download_database.py` script which will do
 - [PhysioNet Sleep-EDF Database](https://www.physionet.org/files/sleep-edfx/1.0.0/)
 
 ### Script for Data Download
-- [download_database.py][(https://github.com/HaoliangCheng/sleep-stage-classification/blob/main/download_database.py)]
+- [download_database.py](https://github.com/HaoliangCheng/sleep-stage-classification/blob/main/download_database.py)
 
 ## Read EDF File
 Import the downloaded EDF file into MATLAB/Python for data processing.
@@ -28,7 +28,7 @@ The data preparation involves cleaning the downloaded data:
 
 ### Scripts for Data Preparation
 - [MATLAB Script: prepare_sleepedf.m](https://www.dropbox.com/scl/fi/5ogwjlnjs3ohareqfqimq/prepare_sleepedf.m?rlkey=6ombtyv3wj3a0qbft9baj1foy&dl=0)
-- [Python Script: prepare_sleepedf.py](https://www.dropbox.com/scl/fi/9lafkzchafikakr1mvv9a/prepare_sleepedf.py?rlkey=h2tcqen4rk3uteobtrh3qgtgx&dl=0)
+- [Python Script: prepare_sleepedf.py](https://github.com/HaoliangCheng/sleep-stage-classification/blob/main/prepare_sleepedf.py)
 
 ## Dimensional Reduction
 To reduce the dimensionality of the data, brainwave signals are filtered and the energy of these signals is estimated.
