@@ -1,7 +1,7 @@
 # Sleep Stage Classification Preparation
 
 ## Overview
-This project is used in Dr. Mao's sleep stage classification lab which involves downloading and preparing sleep stage data for classification. The steps include downloading sample data, reading EDF files, preparing the data by removing unnecessary stages, and applying dimensional reduction techniques (filter).
+This project is used in Dr. Mao's sleep stage classification lab which involves downloading and preparing sleep stage data for classification. The steps include downloading sample data, reading EDF files, preparing the data by removing unnecessary stages, and applying dimensional reduction techniques (filter). Then，we can use the preprocessed data to train the model.
 
 ## Outline
 1. [Download Sample Data](#download-sample-data)
@@ -16,7 +16,7 @@ To download the sample data, run the `download_database.py` script which will do
 - [PhysioNet Sleep-EDF Database](https://www.physionet.org/files/sleep-edfx/1.0.0/)
 
 ### Script for Data Download
-- [download_database.py](https://www.dropbox.com/scl/fi/7tfrwx2l3bop89gkbvc1o/download_database.py?rlkey=9lgp28q8kfvuxi0lowz4suv9u&dl=0)
+- [download_database.py][(https://github.com/HaoliangCheng/sleep-stage-classification/blob/main/download_database.py)]
 
 ## Read EDF File
 Import the downloaded EDF file into MATLAB/Python for data processing.
