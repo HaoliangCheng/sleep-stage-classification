@@ -26,10 +26,11 @@ The data preparation involves cleaning the downloaded data:
 For Python code, you can directly run the code for data processing. 
 
 ### MATLAB
-For MATLAB code, you need to put your downloaded data into sleep_stage_training_data and sleep_stage_testing_data dir, then you can run the code for data processing.
+For MATLAB code, you need to create "sleep_stage_training_data" dir and "sleep_stage_testing_data" dir in "MATLAB_code" dir first and put your downloaded data into them, then you can run the code for data processing.
 
 ### Scripts for Data Preparation
-- [MATLAB Script: prepare_sleepedf.m](https://www.dropbox.com/scl/fi/5ogwjlnjs3ohareqfqimq/prepare_sleepedf.m?rlkey=6ombtyv3wj3a0qbft9baj1foy&dl=0)
+- [MATLAB Script: prepare_training_data.m](https://github.com/HaoliangCheng/sleep-stage-classification/blob/main/MATLAB_code/prepare_training_data.m)
+- [MATLAB Script: prepare_testing_data.m](https://github.com/HaoliangCheng/sleep-stage-classification/blob/main/MATLAB_code/prepare_testing_data.m)
 - [Python Script: prepare_sleepedf.py](https://github.com/HaoliangCheng/sleep-stage-classification/blob/main/prepare_sleepedf.py)
 
 ## Dimensional Reduction
