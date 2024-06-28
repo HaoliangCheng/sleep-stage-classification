@@ -10,7 +10,7 @@ This project is used in Dr. Mao's sleep stage classification lab which involves 
 4. [Dimensional Reduction](#dimensional-reduction)
 
 ## Download Sample Data
-To download the sample data, run the `download_database.py` script which will download the EDF files to your computer.
+To download the sample data, run the `download_database.py` script which will download the EDF files to this directory where XXX-PSG file stores the signal information and XXX-Hypnogram file with the same number stores the corresponding sleep stage information. You would better divide the total 152 samples into two parts (ex. 122 training samples and 30 testing samples) to process these data separately.
 
 ### Data Link
 - [PhysioNet Sleep-EDF Database](https://www.physionet.org/files/sleep-edfx/1.0.0/)
