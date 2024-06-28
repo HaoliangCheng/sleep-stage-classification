@@ -1,7 +1,7 @@
 # Sleep Stage Classification Preparation
 
 ## Overview
-This project is used in Dr. Mao's sleep stage classification lab which involves downloading and preparing sleep stage data for classification. The steps include downloading sample data, reading EDF files, preparing the data by removing unnecessary stages, and applying dimensional reduction techniques.
+This project is used in Dr. Mao's sleep stage classification lab which involves downloading and preparing sleep stage data for classification. The steps include downloading sample data, reading EDF files, preparing the data by removing unnecessary stages, and applying dimensional reduction techniques(filter).
 
 ## Outline
 1. [Download Sample Data](#download-sample-data)
@@ -19,12 +19,12 @@ To download the sample data, run the `download_database.py` script which will do
 - [download_database.py](https://www.dropbox.com/scl/fi/7tfrwx2l3bop89gkbvc1o/download_database.py?rlkey=9lgp28q8kfvuxi0lowz4suv9u&dl=0)
 
 ## Read EDF File
-Import the downloaded EDF file into MATLAB to begin the data processing.
+Import the downloaded EDF file into MATLAB/Python for data processing.
 
 ## Prepare Data
 The data preparation involves cleaning the downloaded data:
 - Remove most parts of wake stages, all movements, and unknown stages.
-- Keep only stages 0-4.
+- Keep only stages 0, 1, 2, 3, 4.
 
 ### Scripts for Data Preparation
 - [MATLAB Script: prepare_sleepedf.m](https://www.dropbox.com/scl/fi/5ogwjlnjs3ohareqfqimq/prepare_sleepedf.m?rlkey=6ombtyv3wj3a0qbft9baj1foy&dl=0)
@@ -51,6 +51,7 @@ The resulting signals after filtering and energy estimation are:
 - Theta wave
 - Alpha wave
 - Beta wave
+These four types of signal wave energy are input data in model training and the sleep stages are output in model training.
 
 ## Author
 Haoliang Cheng
