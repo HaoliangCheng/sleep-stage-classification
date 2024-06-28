@@ -1,7 +1,7 @@
 # Sleep Stage Classification Preparation
 
 ## Overview
-This project is used in Dr. Mao's sleep stage classification lab which involves downloading and preparing sleep stage data for classification. The steps include downloading sample data, reading EDF files, preparing the data by removing unnecessary stages, and applying dimensional reduction techniques(filter).
+This project is used in Dr. Mao's sleep stage classification lab which involves downloading and preparing sleep stage data for classification. The steps include downloading sample data, reading EDF files, preparing the data by removing unnecessary stages, and applying dimensional reduction techniques (filter).
 
 ## Outline
 1. [Download Sample Data](#download-sample-data)
