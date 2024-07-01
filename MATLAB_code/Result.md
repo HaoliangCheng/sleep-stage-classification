@@ -42,7 +42,7 @@ The EEG data was filtered into four band powers: delta, alpha, beta, and theta w
 - **DT/KNN**: Does not require balanced data
 
 ### Precision
-- **Stage 1**: The precison in stage 1 is much lower than other stage in all these models.
+- **Stage 1**: The precision in stage 1 is much lower than other stages in all these models.
 
 
 
