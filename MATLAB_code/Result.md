@@ -31,9 +31,9 @@ The EEG data was filtered into four band powers: delta, alpha, beta, and theta w
 - **Filter + Decision Tree**: 59.5%
 
 ### Ensemble Learning Results
-- **Random Forest** (number of trees=58, min leaf size=25): 60.13%
-- **Multi-tree (train sub-model by sample data from one individual, then aggregated result of these model)**: 53.8%
-- **Multi-DA (train sub-model by sample data from one individual, then aggregated result of these model)**: 54.8%
+- **Filter + Random Forest** (number of trees=58, min leaf size=25): 60.13%
+- **Filter + Multi-tree (train sub-model by sample data from one individual, then aggregated result of these model)**: 53.8%
+- **Filter + Multi-DA (train sub-model by sample data from one individual, then aggregated result of these model)**: 54.8%
 
 ## Reminder
 
